@@ -1,0 +1,2 @@
+# god
+Ddos termux

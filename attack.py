@@ -68,7 +68,7 @@ referers = [
 	"https://www.google.co.ao/search?q=",
 	"https://www.nasa.gov/",
 	"https://www.microsoft.com/",
-	"https://cloudflare.com.com/",
+	"https://cloudflare.com/",
 	"https://pornhub.com/",
 	"https://xnxx.com/",
 	"https://tinder.com/",
@@ -120,6 +120,42 @@ referers = [
 	"https://ovh.com/",
 	"https://ionos.com/",
 	"https://digitalocean.com/",
+	"https://you.com/search?q=",
+	"https://duckduckgo.com/?q=",
+	"https://search.yahoo.com/",
+	"https://fr.ask.com/web?o=779020&l=dir&qo=homepageSearchBox&ueid=4a06a9e3-7035-454b-9839-d5017a5178fd&q=",
+	"https://fr.ask.com/",
+	"https://www.baidu.com/from=844b/s?word=nchc&ts=0&t_kt=0&ie=utf-8&fm_kl=021394be2f&rsv_iqid=3932058834&rsv_t=2c7aBLn4mTvas4otBp6CvOoBcvtQ93OOWmENZf5pYE90mXszjiksM8ThsA&sa=ib&ms=1&rsv_pq=",
+	"https://www.baidu.com/",
+	"https://www.wolframalpha.com/input?i=sus",
+	"https://www.wolframalpha.com/",
+	"https://boardreader.com/",
+	"https://boardreader.com/s/",
+	"https://www.startpage.com/sp/search",
+	"https://www.startpage.com/",
+	"https://www.ecosia.org/search?method=index&q=",
+	"https://www.qwant.com/?q=&t=web",
+	"https://www.qwant.com/",
+	"https://www.searchencrypt.com/home/",
+	"https://www.searchencrypt.com/search/",
+	"https://searx.me/",
+	"https://yandex.com/",
+	"https://yandex.com/search/touch/?text=",
+	"https://gibiru.com/",
+	"https://gibiru.com/results.html?q=",
+	"https://search.disconnect.me/",
+	"https://swisscows.com/en/",
+	"https://swisscows.com/en/web?query=",
+	"https://www.lukol.com/",
+	"https://m.lukol.com/s.php?q=",
+	"https://metager.de/en/",
+	"https://www.gigablast.com/",
+	"https://www.gigablast.com/search?c=main&qlangcountry=en-us&q=",
+	"https://www.gigablast.com/search?c=",
+	"https://www.oscobo.com/",
+	"https://search.becovi.com/serp.php?q=",
+	"https://infinitysearch.co/",
+	"https://infinitysearch.co/results?q=",
 ]
 ind_dict = {}
 data = ""
@@ -221,7 +257,7 @@ def ParseUrl(original_url):
 	original_url = original_url.strip()
 	url = ""
 	path = "/"#default value
-	port = 80 #default value
+	l = 80 #default value
 	protocol = "http"
 	#http(s)://www.example.com:1337/xxx
 	if original_url[:7] == "http://":

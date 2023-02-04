@@ -1,2 +1,1 @@
-# god
-Ddos termux
+# None

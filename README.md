@@ -20,11 +20,38 @@ $ pip install socks
 $ pip install pysocks
  
 Run : 
+
+$ git clone https://github.com/disoGiso/god
  
 $ ls 
  
 $ cd god 
  
 $ python attack.py 
+
+# Ubuntu
+
+$ sudo su
+
+$ sudo apt install python3
+
+$ sudo apt install python3-pip
+
+$ sudo apt install git
+
+$ pip install requests
+
+$ pip install socks
+
+$ pip install pysocks
+
+$ sudo git clone https://github.com/disoGiso/god
+
+$ ls
+
+$ cd god
+
+$ python3 attack.py
+
  
 
